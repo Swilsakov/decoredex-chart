@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Craftwork Grotesk";
+  src: url("../fonts/CraftworkGrotesk/CraftworkGrotesk-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  font-family: "Craftwork Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  background: #0F0E14;
+}

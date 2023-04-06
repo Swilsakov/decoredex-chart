@@ -1,0 +1,52 @@
+.header {
+  margin-top: 26px;
+  padding: 0 60px;
+}
+
+.header__container {
+  min-height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo span {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.logo {}
+
+.btn_feedback {
+  width: 244px;
+  margin-left: 94px;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn_trade {
+  width: 95px;
+  background: #48A7FF;
+}
+
+.btn_wallet {
+  width: 200px;
+  gap: 10px;
+}
+
+.btn_token {
+  width: 95px;
+}
