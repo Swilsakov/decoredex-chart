@@ -31,6 +31,15 @@
   margin-left: 94px;
 }
 
+.btn_feedback:hover {
+  background: #48A7FF;
+}
+
+.btn_feedback:active {
+  background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
+  box-shadow: 0px 0px 14px rgba(2, 237, 255, 0.5);
+}
+
 .header__menu {
   display: flex;
   align-items: center;
@@ -39,7 +48,15 @@
 
 .btn_trade {
   width: 95px;
+}
+
+.btn_trade:hover {
   background: #48A7FF;
+}
+
+.btn_trade:active {
+  background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
+  box-shadow: 0px 0px 14px rgba(2, 237, 255, 0.5);
 }
 
 .btn_wallet {
@@ -47,6 +64,49 @@
   gap: 10px;
 }
 
+.btn_wallet:hover {
+  background: #48A7FF;
+}
+
+.btn_wallet:active {
+  background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
+  box-shadow: 0px 0px 14px rgba(2, 237, 255, 0.5);
+}
+
 .btn_token {
+  position: relative;
   width: 95px;
+}
+
+.btn_token img {
+  position: absolute;
+  left: 15px;
+}
+
+.btn_token::before {
+  content: '';
+  position: absolute;
+  height: 70%;
+  background: #ffffff;
+  border: 0.5px solid #FFFFFF;
+}
+
+.btn_token::after {
+  content: '...';
+  font-size: 30px;
+  right: 8px;
+  position: absolute;
+  transform: rotate(90deg);
+  letter-spacing: 1px;
+}
+
+.btn_token:hover {
+  color: #48A7FF;
+  box-shadow: 0px 0px 17.25px rgba(72, 167, 255, 0.5);
+}
+
+.btn_token:active {
+  color: #FFFFFF;
+  background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
+  box-shadow: 0px 0px 17.25px rgba(72, 167, 255, 0.5);
 }

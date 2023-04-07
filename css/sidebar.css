@@ -116,6 +116,7 @@
 }
 
 .pay__input {
+  font-family: "Craftwork Grotesk", sans-serif;
   margin-top: 6px;
   border: none;
   background-color: #292D46;
@@ -141,6 +142,7 @@
 }
 
 .pay__input::placeholder {
+  font-family: "Craftwork Grotesk", sans-serif;
   color: #FFFFFF;
 }
 
@@ -160,6 +162,14 @@
   background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
   box-shadow: 0px 0px 14px rgba(2, 237, 255, 0.5);
   border-radius: 62px;
+}
+
+.btn_swap:hover {
+  background: #48A7FF;
+}
+
+.btn_swap:active {
+  background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
 }
 
 .pay__fees {
@@ -186,6 +196,16 @@
   background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
   border-radius: 62px;
   border: none;
+}
+
+.pay__btn_wallet:hover {
+  background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
+  box-shadow: 0px 0px 14px rgba(2, 237, 255, 0.5);
+}
+
+.pay__btn_wallet:active {
+  background: #816FFC;
+  box-shadow: 0px 0px 14px #816FFC;
 }
 
 /* ========= sidebar-swap =========== */
@@ -235,6 +255,11 @@
 }
 
 .feedback__input {
+  font-family: 'Craftwork Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
   width: 100%;
   padding: 10px 20px;
   margin-bottom: 10px;
@@ -254,7 +279,7 @@
   opacity: 0.6;
 }
 
-.feedback__feedback_btn {
+.sidebar__feedback .btn_feedback {
   align-self: end;
   width: 60%;
 }
