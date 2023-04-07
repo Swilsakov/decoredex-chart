@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/sidebar.css">
 </head>
 
 <body>
@@ -101,11 +102,43 @@
           </div>
         </div>
 
-
-
-
         <div class="main__sidebar">
-          <div class="sidebar__trade sidebar_block">sidebar trade</div>
+          <div class="sidebar__trade sidebar_block">
+            <div class="trade__buttons">
+              <button class="long__btn trade_btn"><img src="./images/main/sidebar/long.svg" alt=""> Long</button>
+              <button class="short__btn trade_btn"><img src="./images/main/sidebar/short.svg" alt=""> Short</button>
+              <button class="swap__btn trade_btn trade_btn_active">
+                <img src="./images/main/sidebar/swap.svg" alt="">
+                Swap
+              </button>
+            </div>
+            <div class="trade__pay">
+              <div class="pay__trade_type">
+                <a class="pay__link pay__link_active" href="">Market</a>
+                <a class="pay__link " href="">Limit</a>
+              </div>
+              <div class="pay__receive">
+                <div class="pay__block">
+                  <div class="pay__input_block">
+                    <label for="pay__value_input" class="input__name">Pay</label>
+                    <input id="pay__value_input" class="pay__input" type="number" placeholder="0.0" no-spinners>
+                  </div>
+                  <label class="input__token">ECORE</label>
+                </div>
+                <button class="btn_swap"><img src="./images/main/sidebar/btn-swap.svg" alt=""></button>
+                <div class="pay__block">
+                  <div class="pay__input_block">
+                    <label for="pay__value_output" class="input__name">Receive</label>
+                    <input id="pay__value_output" class="pay__input" type="number" placeholder="0.0" no-spinners>
+                  </div>
+                  <label class="input__token">USDT</label>
+                </div>
+              </div>
+              <p class="pay__fees">Fees</p>
+              <button class="pay__btn_wallet">Connect Wallet</button>
+            </div>
+          </div>
+
           <div class="sidebar__swap sidebar_block">sidebar swap</div>
           <div class="sidebar__feedback sidebar_block">sidebar feedback</div>
         </div>

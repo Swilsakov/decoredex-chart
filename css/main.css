@@ -85,12 +85,9 @@
   height: 100%;
 }
 
-
-
-
 /* ============== downbar =========== */
 .main__downbar {
-  margin-top: 20px;
+  margin: 20px 0 50px;
   height: 222px;
 }
 
@@ -164,31 +161,4 @@
 .btn__reward {
   width: 200px;
   background: #48A7FF;
-}
-
-
-
-
-
-/* ========= sidebar =========== */
-
-.main__sidebar {}
-
-.sidebar__trade {
-  height: 420px;
-}
-
-.sidebar__swap {
-  height: 178px;
-}
-
-.sidebar__feedback {
-  height: 169px;
-}
-
-.sidebar_block {
-  background-color: #1B1E2D;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  padding: 20px 18px;
 }
