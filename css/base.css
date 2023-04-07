@@ -18,7 +18,8 @@
   line-height: 130%;
   color: #FFFFFF;
 
-  background-color: #1E242E;
+  /* background-color: #1E242E; */
+  background: linear-gradient(90deg, #1E242E 0%, #0A0F1B 100%);
   cursor: pointer;
   border: 1px solid #ffffff;
   border: none;
