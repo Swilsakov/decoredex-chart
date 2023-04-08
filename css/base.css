@@ -30,3 +30,10 @@
 .none {
   display: none !important;
 }
+
+@media (max-width: 861px) {
+  ._btn {
+    height: 44px;
+    font-size: 14px;
+  }
+}
