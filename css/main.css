@@ -100,18 +100,17 @@
   margin-bottom: 20px;
 }
 
-.downbar__menu .menu__link {
-  font-weight: 500;
+.downbar_menu__link {
+  font-weight: 400;
   font-size: 16px;
   line-height: 130%;
   color: #FFFFFF;
   opacity: 0.6;
 }
 
-.downbar__menu .menu__link_active {
-  font-weight: 400;
+.downbar_menu__link_active {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 130%;
   color: #FFFFFF;
 }
 
@@ -231,8 +230,7 @@
   }
 }
 
-@media (max-width: 1023px) {
-}
+@media (max-width: 1023px) {}
 
 @media (max-width: 861px) {}
 
