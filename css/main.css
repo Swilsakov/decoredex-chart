@@ -89,7 +89,7 @@
 
 /* ============== downbar =========== */
 .main__downbar {
-  margin: 20px 0 50px;
+  margin: 20px 0 20px;
   height: 222px;
 }
 
@@ -157,8 +157,6 @@
   margin-top: 33px;
 }
 
-
-
 .downbar__get_reward {
   margin-top: 24px;
   display: flex;
@@ -207,15 +205,7 @@
 }
 
 @media (max-width: 1180px) {
-  .main__container {
-    display: grid;
-    grid-template-columns: 1fr;
 
-    column-gap: 40px;
-
-    max-width: 1780px;
-    padding: 0 30px;
-  }
 
   .main__heading_symbols {
     margin-right: 45px;
@@ -227,11 +217,22 @@
   }
 
   .downbar__orderbook {
-    padding: 20px 40px;
+    padding: 20px 20px;
+  }
+
+  .main__container {
+    display: grid;
+    grid-template-columns: auto;
+
+    column-gap: 40px;
+
+    max-width: 1780px;
+    padding: 0 30px;
   }
 }
 
-@media (max-width: 1023px) {}
+@media (max-width: 1023px) {
+}
 
 @media (max-width: 861px) {}
 
@@ -274,6 +275,12 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .main__downbar {
+    margin: 20px 0 30px;
+    min-height: 222px;
+  }
+
+
   .downbar__menu .menu__link {
     font-size: 14px;
   }
@@ -306,6 +313,10 @@
 }
 
 @media (max-width: 575px) {
+  .main__container {
+    padding: 0 12px;
+  }
+
   .main__heading_symbols {
     margin-right: 25px;
     font-size: 20px;

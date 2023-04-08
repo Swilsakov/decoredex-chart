@@ -41,7 +41,7 @@
 
     <main class="main">
       <div class="main__container">
-        <div class="main__block">
+        <div class="main__block ">
           <div class="main__heading">
             <h2 class="main__heading_symbols">
               <span>ECORE</span>/<span>USDT</span>
@@ -102,9 +102,10 @@
           </div>
         </div>
 
-        <div class="main__sidebar none">
+        
+        <div class="main__sidebar">
           <div class="sidebar__trade sidebar_block">
-            <div class="trade__buttons">
+            <div class="trade__buttons ">
               <button class="long__btn trade_btn"><img src="./images/main/sidebar/long.svg" alt=""> Long</button>
               <button class="short__btn trade_btn"><img src="./images/main/sidebar/short.svg" alt=""> Short</button>
               <button class="swap__btn trade_btn trade_btn_active">
@@ -112,26 +113,26 @@
                 Swap
               </button>
             </div>
-            <div class="trade__pay">
+            <div class="trade__pay ">
               <div class="pay__trade_type">
                 <a class="pay__link pay__link_active" href="">Market</a>
                 <a class="pay__link " href="">Limit</a>
               </div>
-              <div class="pay__receive">
+              <div class="pay__receive ">
                 <div class="pay__block">
                   <div class="pay__input_block">
                     <label for="pay__value_input" class="input__name">Pay</label>
-                    <input id="pay__value_input" class="pay__input" type="number" placeholder="0.0" no-spinners>
+                    <input id="pay__value_input " class="pay__input" type="number" placeholder="0.0" no-spinners>
                   </div>
-                  <label class="input__token">ECORE</label>
+                  <p class="input__token">ECORE</p>
                 </div>
                 <button class="btn_swap"><img src="./images/main/sidebar/btn-swap.svg" alt=""></button>
-                <div class="pay__block">
+                <div class="pay__block ">
                   <div class="pay__input_block">
                     <label for="pay__value_output" class="input__name">Receive</label>
                     <input id="pay__value_output" class="pay__input" type="number" placeholder="0.0" no-spinners>
                   </div>
-                  <label class="input__token">USDT</label>
+                  <p class="input__token">USDT</p>
                 </div>
               </div>
               <p class="pay__fees">Fees</p>
@@ -139,7 +140,7 @@
             </div>
           </div>
 
-          <div class="sidebar__swap sidebar_block">
+          <div class="sidebar__swap sidebar_block  ">
             <p class="sidebar__title">Swap</p>
             <div class="swap__content_block">
               <div class="swap__row">
@@ -156,7 +157,8 @@
               </div>
             </div>
           </div>
-          <div class="sidebar__feedback sidebar_block">
+
+          <div class="sidebar__feedback sidebar_block  ">
             <p class="sidebar__title">Help us to improve platform and service!</p>
             <input type="text" class="feedback__input" placeholder="Give your feedback...">
             <button class="btn_feedback _btn">Feedback</button>
