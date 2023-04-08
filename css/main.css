@@ -136,7 +136,6 @@
   left: 0;
 }
 
-
 .orderbook__menu li {
   text-align: center;
 }
@@ -157,6 +156,8 @@
 .orderbook__content {
   margin-top: 33px;
 }
+
+
 
 .downbar__get_reward {
   margin-top: 24px;
@@ -291,6 +292,17 @@
     line-height: 130%;
     color: #FFFFFF;
   }
+
+  .downbar__get_reward h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .orderbook__content p {
+    margin-top: 26px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -333,5 +345,9 @@
 
   .downbar__orderbook {
     padding: 12px 12px;
+  }
+
+  .downbar__get_reward h3 {
+    font-size: 14px;
   }
 }
