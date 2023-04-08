@@ -113,19 +113,19 @@
 }
 
 @media (max-width: 1319px) {
-  .btn_feedback {
+  .header__logo .btn_feedback {
     display: none;
   }
 }
 
-@media (max-width: 1180px) {}
-
-@media (max-width: 1023px) {
+@media (max-width: 1180px) {
   .header {
     margin-top: 22px;
     padding: 0 20px;
   }
 }
+
+@media (max-width: 1023px) {}
 
 @media (max-width: 861px) {
   .header__container {

@@ -283,3 +283,13 @@
   align-self: end;
   width: 60%;
 }
+
+@media (max-width: 1180px) {}
+
+@media (max-width: 1023px) {}
+
+@media (max-width: 861px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {}
