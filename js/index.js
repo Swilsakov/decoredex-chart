@@ -42,3 +42,4 @@ for (let i = 0; i < pay__link.length; i++) {
     active_payLink = this;
   });
 }
+
