@@ -91,7 +91,6 @@
   transform: translate(-50%, -50%);
 
   font-size: 20px;
-
   padding: 24px 32px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid;
@@ -191,20 +190,6 @@
   line-height: 130%;
 }
 
-.btn__reward {
-  width: 200px;
-  background: #48A7FF;
-}
-
-.btn__reward:hover {
-  box-shadow: 0px 0px 14px rgba(2, 237, 255, 0.5);
-}
-
-.btn__reward:active {
-  background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
-  box-shadow: 0px 0px 14px rgba(2, 237, 255, 0.5);
-}
-
 
 @media (max-width: 1319px) {
   .header__logo .btn_feedback {
@@ -293,6 +278,11 @@
     background: linear-gradient(137.6deg, #02EDFF -13.92%, #48A7FF 104.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .chart__soon {
+    font-size: 16px;
+    padding: 20px 28px;
   }
 
   .main__downbar {
