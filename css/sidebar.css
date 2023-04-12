@@ -121,7 +121,7 @@
   border: none;
   background-color: #292D46;
   height: 26px;
-  max-width: 70%;
+  max-width: 80%;
   outline: none;
   font-weight: 400;
   font-size: 20px;
@@ -324,18 +324,7 @@
 
 
   .pay__input {
-    font-family: "Craftwork Grotesk", sans-serif;
-    margin-top: 6px;
-    border: none;
-    background-color: #292D46;
-    height: 26px;
-    max-width: 60%;
-    outline: none;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    color: #FFFFFF;
-    box-sizing: border-box;
+    max-width: 80%;
   }
 
   .sidebar__title {

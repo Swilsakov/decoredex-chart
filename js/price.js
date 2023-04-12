@@ -2,7 +2,7 @@ const price = document.querySelector(".price");
 let number = 2.812;
 
 // Устанавливаем интервал в 5 минут
-const interval = 1 * 60 * 1000;
+const interval = 5 * 60 * 1000;
 // const interval = 1 * 60 * 100;
 
 // Устанавливаем время работы в 1 час
